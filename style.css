@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("./landscape_image.jpg");
+    background-position:center;
+    background-size: cover;
+}
+
+#clock {
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+#time{
+    color: white;
+    font-size: 50px;
+}
+#dates{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
